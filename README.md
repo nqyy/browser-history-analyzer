@@ -1,1 +1,1 @@
-# browser-analyzer
+# browser-history-analyzer
