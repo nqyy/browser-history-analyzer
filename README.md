@@ -21,8 +21,8 @@ Usage: ``python anazlyze.py``
 
 Explanation of configuration
 =============
-1. Browser: the browser we want to explore. (chrome, safari, firefox supported)
-2. Path: the path we want to search for browser history. (Please use ~ as default)
+1. Browser: the browser we want to explore. (``chrome``, ``safari``, ``firefox`` supported)
+2. Path: the path we want to search for browser history. (Please use ``~`` as default)
 3. Statistics: to show the statistics or not. (``true`` of ``false``)
 4. Plot: to draw the pie chart of the statistics or not. (``true`` of ``false``)
 5. Plot number: the number we want to show on the pie chart.
