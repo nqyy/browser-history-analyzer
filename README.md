@@ -29,8 +29,14 @@ Explanation of configuration
 6. History list: to show the list of history or not. (``true`` of ``false``)
 7. Start time: the start time stamp filter. (``yy-mm-dd`` or ``yy-mm-dd HH-MM-SS``)
 8. End time: Then end time stamp filter. (``yy-mm-dd`` or ``yy-mm-dd HH-MM-SS``)
-9. Keyword: The keywords for the filter.
+9. Keyword: The keywords for the filter (keyword1 keyword2 ...).
 
 Packages
 =============
 All packages required are in requirement.txt. Please run ``pip install -r requirement.txt``
+
+Notes
+=============
+the path for specific history database can be specified in ``analyze.py`` in the 
+comment line: ``#history_path = /path/you/found``. Please comment out the original
+hitory_path setting code.

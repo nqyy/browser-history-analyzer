@@ -128,8 +128,9 @@ except:
     print("\nError: invalid input!")
     sys.exit(0)
 
+# the history pass can be specified here!
+# history_path = /path/you/found
 history_path = history_list[int(chosen)-1]
-# history_path = "/Users/tchi/Library/Application Support/Google/Chrome/Profile 2/History"
 
 #-------------------------------------------------------------------------------
 # statistics
