@@ -9,7 +9,7 @@ def find_keyword(URL, title, keywords):
 
     for keyword in keywords:
         # case insensitive
-        if keyword.lower() in URL.lower() or keyword.lower() in title.lower():
+        if len(keyword) > 0 and (URL is not None and keyword.lower() in URL.lower()) or (title is not None and keyword.lower() in title.lower()):
             return True
     return False
 
